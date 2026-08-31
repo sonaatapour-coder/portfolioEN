@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SINA — Freelance Web Designer &amp; Developer</title>
+<meta name="description" content="SINA is a freelance web designer and developer building premium, high-performance websites for businesses worldwide. Web design, UI/UX, and frontend development.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://your-domain-here.com/">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<meta name="theme-color" content="#F5F5F2">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SINA — Freelance Web Designer & Developer">
+<meta property="og:description" content="I design and build websites that turn ideas into impact — modern, fast, and built around business goals.">
+<meta property="og:image" content="assets/images/og-cover.svg">
+<meta property="og:url" content="https://your-domain-here.com/">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- در حال بارگذاری صفحه: نوار پیشرفت اسکرول -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- مکان‌نمای سفارشی (فقط دسکتاپ) -->
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">SINA</a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--sm btn--dark nav__cta">Let's Talk</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn--dark mobile-menu__cta">Let's Talk</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <p class="eyebrow reveal">
+        <span class="status-dot" aria-hidden="true"></span>
+        Available for selected projects
+      </p>
+
+      <h1 class="hero__headline reveal">
+        I design websites that make businesses <span class="hl">impossible to ignore.</span>
+      </h1>
+
+      <p class="hero__desc reveal">
+        I'm SINA — I design and develop modern websites focused on aesthetics, usability, performance,
+        and the business goals behind them. Every project is built with the same care, from the first
+        sketch to the final line of code.
+      </p>
+
+      <div class="hero__cta reveal">
+        <a href="#work" class="btn btn--dark">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Start a Project</a>
+      </div>
+
+      <div class="hero__meta reveal">
+        <span>Based in Iran · Working Worldwide</span>
+        <span class="dot-sep" aria-hidden="true">·</span>
+        <span>Web Design / Frontend Development / UI UX</span>
+      </div>
+    </div>
+
+    <!-- Signature visual: annotated interface mockup -->
+    <div class="hero__visual reveal" aria-hidden="true">
+      <div class="browser">
+        <div class="browser__bar">
+          <span class="browser__dot"></span>
+          <span class="browser__dot"></span>
+          <span class="browser__dot"></span>
+          <span class="browser__url">sina.dev</span>
+        </div>
+        <div class="browser__body">
+          <svg class="wireframe" viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="560" height="42" class="wf-block wf-nav"></rect>
+            <circle cx="24" cy="21" r="7" class="wf-dot"></circle>
+            <rect x="440" y="14" width="96" height="14" rx="3" class="wf-block wf-btn"></rect>
+
+            <rect x="40" y="82" width="300" height="20" rx="2" class="wf-block wf-line-strong"></rect>
+            <rect x="40" y="112" width="220" height="10" rx="2" class="wf-block wf-line"></rect>
+            <rect x="40" y="130" width="180" height="10" rx="2" class="wf-block wf-line"></rect>
+            <rect x="40" y="160" width="120" height="34" rx="4" class="wf-block wf-btn-strong"></rect>
+
+            <rect x="360" y="70" width="160" height="130" rx="6" class="wf-block wf-card"></rect>
+
+            <rect x="40" y="232" width="150" height="96" rx="6" class="wf-block wf-card-sm"></rect>
+            <rect x="205" y="232" width="150" height="96" rx="6" class="wf-block wf-card-sm"></rect>
+            <rect x="370" y="232" width="150" height="96" rx="6" class="wf-block wf-card-sm"></rect>
+          </svg>
+
+          <span class="annot annot--1">Typography</span>
+          <span class="annot annot--2">Grid</span>
+          <span class="annot annot--3">Hierarchy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SELECTED WORK ===================== -->
+  <section class="section" id="work">
+    <div class="section__head reveal">
+      <p class="eyebrow">01 · Selected Work</p>
+      <h2 class="section__title">Selected Work</h2>
+      <p class="section__sub">A selection of digital experiences designed and developed for different industries.</p>
+    </div>
+
+    <div class="work-grid" id="workGrid">
+      <!-- تزریق پروژه‌ها با جاوااسکریپت -->
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section section--alt" id="services">
+    <div class="section__head reveal">
+      <p class="eyebrow">02 · Services</p>
+      <h2 class="section__title">What I Can Build for You</h2>
+    </div>
+
+    <div class="services-grid" id="servicesGrid">
+      <!-- تزریق سرویس‌ها با جاوااسکریپت -->
+    </div>
+  </section>
+
+  <!-- ===================== VALUE ===================== -->
+  <section class="section value">
+    <div class="value__grid">
+      <div class="value__col reveal">
+        <p class="eyebrow">03 · Why It Matters</p>
+        <h2 class="value__headline">Your website is part of your business.</h2>
+      </div>
+      <div class="value__col reveal">
+        <p class="value__text">
+          A website isn't just a collection of pages — it's often the first real interaction someone
+          has with your business. A good one should:
+        </p>
+        <ul class="value__list">
+          <li>Build credibility from the first second</li>
+          <li>Communicate value clearly, without friction</li>
+          <li>Make information easy to find and understand</li>
+          <li>Work well on every device, not just desktop</li>
+          <li>Load quickly, everywhere</li>
+          <li>Guide visitors toward taking action</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="about__grid">
+      <div class="about__media reveal">
+        <div class="about__frame">
+          <img src="assets/images/profile.jpg" alt="Portrait of SINA, freelance web designer and developer" loading="lazy" width="480" height="560">
+        </div>
+      </div>
+
+      <div class="about__content reveal">
+        <p class="eyebrow">04 · About</p>
+        <h2 class="section__title">A developer who cares about the details.</h2>
+        <p class="about__text">
+          I'm a freelance web designer and developer working with businesses that want a website
+          which actually represents them — not a template with their logo on it. My focus sits at
+          the intersection of design and engineering: interfaces that look considered and code that
+          holds up.
+        </p>
+        <p class="about__text">
+          I work across modern web design, UI/UX, and frontend development, with an emphasis on
+          responsive layouts, performance, and clean, SEO-friendly structure. I write code I'd be
+          comfortable handing to another developer, and I design screens I'd be comfortable putting
+          in front of a client.
+        </p>
+
+        <div class="skills">
+          <div class="skills__group">
+            <p class="skills__label">Design</p>
+            <div class="tags">
+              <span class="tag">UI Design</span>
+              <span class="tag">UX Design</span>
+              <span class="tag">Responsive Design</span>
+              <span class="tag">Design Systems</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <p class="skills__label">Development</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Frontend Development</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <p class="skills__label">Optimization</p>
+            <div class="tags">
+              <span class="tag">Performance</span>
+              <span class="tag">SEO Fundamentals</span>
+              <span class="tag">Accessibility</span>
+              <span class="tag">Responsive Optimization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section class="section section--alt process" id="process">
+    <div class="section__head reveal">
+      <p class="eyebrow">05 · Process</p>
+      <h2 class="section__title">From Idea to Launch</h2>
+    </div>
+
+    <ol class="timeline" id="timeline">
+      <li class="timeline__item reveal">
+        <span class="timeline__num">01</span>
+        <h3 class="timeline__title">Discover</h3>
+        <p class="timeline__text">Understand the business, audience and goals.</p>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__num">02</span>
+        <h3 class="timeline__title">Design</h3>
+        <p class="timeline__text">Create the visual direction and user experience.</p>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__num">03</span>
+        <h3 class="timeline__title">Build</h3>
+        <p class="timeline__text">Develop the website with clean, responsive code.</p>
+      </li>
+      <li class="timeline__item reveal">
+        <span class="timeline__num">04</span>
+        <h3 class="timeline__title">Launch</h3>
+        <p class="timeline__text">Test, optimize and prepare the final experience.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===================== WHY WORK WITH ME ===================== -->
+  <section class="section why">
+    <div class="why__grid">
+      <div class="reveal">
+        <p class="eyebrow">06 · Why Work With Me</p>
+        <h2 class="section__title">Design that looks good. Development that works.</h2>
+      </div>
+      <ul class="why__list reveal">
+        <li>Custom design, never a recycled template</li>
+        <li>Responsive by default, not as an afterthought</li>
+        <li>Performance focused, from image weight to code</li>
+        <li>Clean, maintainable code</li>
+        <li>Attention to detail, in the parts people notice and the parts they don't</li>
+        <li>Clear communication throughout the project</li>
+        <li>Business-focused thinking, not just visuals</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== PRINCIPLES ===================== -->
+  <section class="section section--alt principles">
+    <div class="section__head reveal">
+      <p class="eyebrow">07 · What I Prioritize</p>
+      <h2 class="section__title">What I Prioritize</h2>
+    </div>
+
+    <div class="principles-grid">
+      <div class="principle reveal">
+        <span class="principle__num">01</span>
+        <h3 class="principle__title">Clarity</h3>
+        <p class="principle__text">The user should understand the website immediately.</p>
+      </div>
+      <div class="principle reveal">
+        <span class="principle__num">02</span>
+        <h3 class="principle__title">Performance</h3>
+        <p class="principle__text">Beautiful websites should also be fast.</p>
+      </div>
+      <div class="principle reveal">
+        <span class="principle__num">03</span>
+        <h3 class="principle__title">Consistency</h3>
+        <p class="principle__text">Every interaction should feel intentional.</p>
+      </div>
+      <div class="principle reveal">
+        <span class="principle__num">04</span>
+        <h3 class="principle__title">Purpose</h3>
+        <p class="principle__text">Every section should have a reason to exist.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta-block">
+    <div class="cta-block__inner reveal">
+      <h2 class="cta-block__headline">Have an idea worth building?</h2>
+      <p class="cta-block__sub">Let's turn it into a website people remember.</p>
+      <a href="#contact" class="btn btn--light">Start a Conversation</a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="contact__grid">
+      <div class="contact__col reveal">
+        <p class="eyebrow">08 · Contact</p>
+        <h2 class="section__title">Let's build something great.</h2>
+        <p class="contact__text">
+          Tell me a little about your project and I'll get back to you. If you'd rather reach out
+          directly, use any of the links below.
+        </p>
+
+        <div class="contact__direct" id="contactDirect">
+          <!-- تزریق لینک‌های تماس با جاوااسکریپت -->
+        </div>
+      </div>
+
+      <div class="contact__col reveal">
+        <form class="form" id="contactForm" novalidate>
+          <div class="form__row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <span class="form__error" id="err-name"></span>
+          </div>
+
+          <div class="form__row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <span class="form__error" id="err-email"></span>
+          </div>
+
+          <div class="form__row">
+            <label for="company">Company <span class="optional">(optional)</span></label>
+            <input type="text" id="company" name="company" autocomplete="organization">
+          </div>
+
+          <div class="form__row">
+            <label for="projectType">Project Type</label>
+            <select id="projectType" name="projectType" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="Web Design">Web Design</option>
+              <option value="Frontend Development">Frontend Development</option>
+              <option value="E-commerce">E-commerce</option>
+              <option value="Landing Page">Landing Page</option>
+              <option value="UI/UX Design">UI/UX Design</option>
+              <option value="Website Redesign">Website Redesign</option>
+              <option value="Other">Other</option>
+            </select>
+            <span class="form__error" id="err-projectType"></span>
+          </div>
+
+          <div class="form__row">
+            <label for="budget">Budget <span class="optional">(optional)</span></label>
+            <select id="budget" name="budget">
+              <option value="" selected>Prefer not to say</option>
+              <option value="Under $1,000">Under $1,000</option>
+              <option value="$1,000 – $3,000">$1,000 – $3,000</option>
+              <option value="$3,000 – $7,000">$3,000 – $7,000</option>
+              <option value="$7,000+">$7,000+</option>
+            </select>
+          </div>
+
+          <div class="form__row">
+            <label for="details">Project Details</label>
+            <textarea id="details" name="details" rows="5" required></textarea>
+            <span class="form__error" id="err-details"></span>
+          </div>
+
+          <button type="submit" class="btn btn--dark form__submit">Send Message</button>
+
+          <p class="form__success" id="formSuccess" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <p class="footer__logo">SINA</p>
+      <p class="footer__role">Freelance Web Designer &amp; Developer</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer__social" id="footerSocial">
+      <!-- تزریق لینک‌های اجتماعی با جاوااسکریپت -->
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© <span id="year"></span> SINA. All rights reserved.</span>
+    <span>Designed &amp; developed with intention.</span>
+  </div>
+</footer>
+
+<!-- ===================== PROJECT MODAL ===================== -->
+<div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__backdrop" id="modalBackdrop"></div>
+  <div class="modal__panel">
+    <button class="modal__close" id="modalClose" aria-label="Close project details">&times;</button>
+    <div class="modal__body" id="modalBody">
+      <!-- تزریق محتوای پروژه با جاوااسکریپت -->
+    </div>
+  </div>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

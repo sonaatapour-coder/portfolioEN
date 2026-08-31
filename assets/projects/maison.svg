@@ -1,0 +1,10 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="480" fill="#F5F5F2"/>
+  <rect x="0" y="0" width="640" height="56" fill="#1F5D46" opacity="0.08"/>
+  <circle cx="28" cy="28" r="6" fill="#1F5D46"/>
+  <rect x="60" y="180" width="220" height="16" rx="2" fill="#1F5D46" opacity="0.85"/>
+  <rect x="60" y="212" width="160" height="10" rx="2" fill="#1F5D46" opacity="0.35"/>
+  <rect x="60" y="250" width="120" height="34" rx="4" fill="#1F5D46"/>
+  <rect x="400" y="120" width="180" height="240" rx="8" fill="#1F5D46" opacity="0.12" stroke="#1F5D46" stroke-width="1.5"/>
+  <text x="60" y="420" font-family="monospace" font-size="14" fill="#1F5D46" opacity="0.6">Maison</text>
+</svg>

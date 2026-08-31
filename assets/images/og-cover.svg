@@ -1,0 +1,7 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F5F5F2"/>
+  <rect x="0" y="0" width="1200" height="630" fill="#1F5D46" opacity="0.04"/>
+  <text x="80" y="300" font-family="sans-serif" font-weight="700" font-size="64" fill="#111111">SINA</text>
+  <text x="80" y="350" font-family="monospace" font-size="22" fill="#6B6B6B">Freelance Web Designer &amp; Developer</text>
+  <text x="80" y="400" font-family="sans-serif" font-size="26" fill="#1F5D46">I build digital experiences that turn ideas into impact.</text>
+</svg>
