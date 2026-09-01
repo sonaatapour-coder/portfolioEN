@@ -36,6 +36,7 @@
     {
       num: "02",
       name: "ProFix",
+      demo: "https://sonaatapour-coder.github.io/proofix-demo/",
       category: "Services / Technology",
       concept: true,
       desc: "A modern mobile repair service platform focused on clear pricing and fast booking.",
@@ -76,6 +77,7 @@
     {
       num: "05",
       name: "Maison",
+      demo: "https://sonaatapour-coder.github.io/restaurant-demo/",
       category: "Hospitality / Restaurant",
       concept: true,
       desc: "A premium restaurant website concept centered on atmosphere and reservations.",
