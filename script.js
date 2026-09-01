@@ -49,6 +49,7 @@
     {
       num: "03",
       name: "BeautyShop",
+      demo: "https://sonaatapour-coder.github.io/beautyshop-homepage-demo/",
       category: "E-commerce / Beauty",
       concept: true,
       desc: "A premium cosmetics e-commerce concept with a soft, editorial visual language.",
@@ -88,6 +89,7 @@
     {
       num: "06",
       name: "Estate",
+      demo: "https://sonaatapour-coder.github.io/Estate-DEMO/",
       category: "Real Estate / Property",
       concept: true,
       desc: "A modern real estate platform concept built around fast property discovery.",
@@ -253,7 +255,7 @@
       </div>
 
       <div class="modal__footer">
-        ${p.name === "Maison" ? `<a class="modal__demo-note" href="https://sonaatapour-coder.github.io/restaurant-demo/#story" target="_blank" rel="noopener noreferrer">View Live Demo</a>` : p.name === "ProFix" ? `<a class="modal__demo-note" href="https://sonaatapour-coder.github.io/proofix-demo/" target="_blank" rel="noopener noreferrer">View Live Demo</a>` : `<span class="modal__demo-note">Demo coming soon</span>`}
+        ${p.demo ? `<a class="modal__demo-note" href="${p.demo}" target="_blank" rel="noopener noreferrer">View Live Demo</a>` : `<span class="modal__demo-note">Demo coming soon</span>`}
       </div>
     `;
     lastFocusedEl = document.activeElement;
